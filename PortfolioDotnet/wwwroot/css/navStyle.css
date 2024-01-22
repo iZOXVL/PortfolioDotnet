@@ -1,0 +1,85 @@
+﻿@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Work+Sans:wght@100;300;400;600;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-family: 'Work Sans';
+    margin: 0;
+    padding: 0;
+}
+/* Estilos de la Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+    height: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #1c2424;
+}
+
+::-webkit-scrollbar-thumb {
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+    background: #4fb097;
+}
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: #901c11;
+    }
+  
+
+html {
+    /* me permite deslizar cuando hago clic en los links del menu */
+    scroll-behavior: smooth;
+}
+/* MENU */
+.contenedor-header {
+    background: #1e2326;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+    .contenedor-header header {
+        max-width: 1100px;
+        margin: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 15px 20px;
+    }
+
+        .contenedor-header header .logo a {
+            font-family: 'Righteous';
+            font-size: 36px;
+            color: #1CB698;
+            text-decoration: none;
+        }
+
+        .contenedor-header header ul {
+            display: flex;
+            list-style: none;
+        }
+
+        .contenedor-header header nav ul li a {
+            text-align: none;
+            color: #fff;
+            margin: 0 15px;
+            padding: 3px;
+            transition: .5s;
+            text-decoration: none;
+        }
+
+            .contenedor-header header nav ul li a:hover {
+                color: #1CB698;
+            }
+
+.nav-responsive {
+    background-color: #1CB698;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    display: none;
+}

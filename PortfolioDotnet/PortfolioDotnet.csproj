@@ -4,6 +4,17 @@
     <TargetFramework>net7.0</TargetFramework>
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
+<LangVersion>11.0</LangVersion>
   </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\css\" />
+    <Folder Include="Resources\img\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\css\navStyle.css" />
+    <None Include="wwwroot\css\style.css" />
+  </ItemGroup>
 
 </Project>
