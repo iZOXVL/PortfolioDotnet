@@ -9,7 +9,7 @@ Para clonar y ejecutar este proyecto, necesitarás [Git](https://git-scm.com) y 
 
 ```bash
 # Clona este repositorio
-$ git clone https://github.com/tu-usuario/tu-repositorio.git
+$ git clone https://github.com/iZOXVL/portfolioDotnet.git
 
 # Ve al repositorio
 $ cd tu-repositorio
