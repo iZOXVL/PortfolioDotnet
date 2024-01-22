@@ -1,4 +1,4 @@
-# Portafolio .NET
+# Portafolio Dotnet
 
 ## Descripción
 Este repositorio contiene mi portafolio personal desarrollado con tecnología .NET de Microsoft. Destaca mis habilidades y proyectos en ASP.NET, C# y tecnologías relacionadas, mostrando mi experiencia en el desarrollo de software.
